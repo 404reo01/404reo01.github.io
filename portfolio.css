@@ -1,0 +1,376 @@
+/* Styles généraux */
+body {
+    font-family: 'Roboto Slab', serif; /* Police élégante et rétro */
+    margin: 0;
+    background-color: #ffffff; /* Fond neutre */
+}
+
+/* Entête pleine page */
+header {
+    height: 100vh; /* Prend toute la hauteur de l'écran */
+    background-color: #800000; /* Fond bordeau */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre horizontalement */
+    justify-content: center; /* Centre verticalement */
+    position: relative;
+}
+
+/* Section d'introduction */
+.header-container {
+    text-align: center; /* Aligne tout le texte au centre */
+}
+
+.header-container h1 {
+    font-size: 4rem; /* Texte imposant */
+    font-family: 'Playfair Display', serif; /* Police originale et cinématographique */
+    font-weight: bold; /* Épaisseur pour un effet puissant */
+    text-transform: uppercase; /* Met le texte en majuscules */
+    margin: 0;
+    color: black; /* Nom en noir */
+}
+
+.header-container p {
+    font-size: 1.5rem; /* Taille équilibrée */
+    font-family: 'Roboto Slab', serif; /* Police douce et élégante */
+    font-style: italic; /* Effet professionnel */
+    color: black; /* Texte noir */
+    max-width: 600px; /* Limite de largeur pour un rendu équilibré */
+    margin: 10px 0 0; /* Espacement subtil */
+}
+
+/* Logo en haut à gauche */
+.logo img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px; /* Taille réduite */
+    height: auto;
+    opacity: 0.8; /* Légèrement transparent pour un effet stylé */
+}
+/* Section de la frise chronologique */
+#timeline {
+    padding: 40px 20px;
+    background-color: #f8f8f8; /* Fond neutre */
+    color: #333;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace; /* Style rétro simple */
+}
+
+#timeline h2 {
+    font-size: 2.5rem;
+    color: #800000; /* Couleur bordeau */
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.timeline-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.event {
+    position: relative;
+    background-color: white;
+    border: 2px solid #ddd;
+    border-left: 6px solid #800000; /* Accent bordeau */
+    padding: 20px;
+    width: 80%;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    font-size: 1rem;
+}
+
+
+/* Titre de l'événement */
+.event h3 {
+    font-size: 1.5rem;
+    margin: 0 0 5px 0;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Dates */
+.event span {
+    font-style: italic;
+    color: #555;
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Texte descriptif */
+.event p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Effet "pixelisé" avec une ombre */
+.event {
+    box-shadow: 8px 8px 0px #800000; /* Effet ombre pixel art */
+}
+
+.pixel-icon img {
+    width: 50px; /* Taille fixe pour conserver l'effet pixel */
+    height: 32px;
+    display: block; /* Assure un alignement propre */
+    margin-bottom: 10px; /* Espacement avec le texte */
+}
+/* Section Projets */
+#projects {
+    padding: 40px 20px;
+    background-color: #f8f8f8; /* Fond neutre */
+    color: #333;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace; /* Style rétro simple */
+}
+
+#projects h2 {
+    font-size: 2.5rem;
+    color: #800000; /* Couleur bordeau */
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.project {
+    background-color: white;
+    border: 2px solid #ddd;
+    border-left: 6px solid #800000; /* Accent bordeau */
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    font-size: 1rem;
+}
+
+/* Icône des projets */
+.project-icon img {
+    width: 48px; /* Taille des icônes pixelisées */
+    height: 48px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* Titre des projets */
+.project h3 {
+    font-size: 1.5rem;
+    margin: 0 0 5px 0;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Texte descriptif */
+.project p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Bouton vers GitHub */
+.project a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #800000;
+    padding: 8px 15px;
+    border-radius: 4px;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 1rem;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+}
+
+.project a:hover {
+    background-color: #a00000; /* Changement de couleur au survol */
+}
+/* Section générale */
+
+
+#comics-skills h2 {
+    padding: 40px 20px;
+    background-color: #ffffff; /* Fond neutre */
+    color: #800000; /* Couleur bordeau */
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace; /* Style rétro simple */
+
+}
+
+#comics-skills p {
+    font-size: 1.2rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* Grille style comics */
+.comics-page {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Grille flexible */
+    gap: 20px;
+}
+
+/* Panels style BD */
+.comics-panel {
+    background-color: #221c1c; /* Fond jaune comics */
+    border: 4px solid #000; /* Bord noir épais */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.5); /* Ombre dramatique pour l'effet BD */
+    text-align: left;
+}
+
+/* Titre des compétences */
+.comics-panel h3 {
+    font-size: 1.5rem;
+    color: #ffffff; /* Rouge vif Spider-Man */
+    margin-bottom: 10px;
+}
+
+/* Texte explicatif */
+.comics-panel p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Effet hover pour donner vie */
+.comics-panel:hover {
+    transform: scale(1.05);
+    box-shadow: 12px 12px 0px #d32f2f; /* Accentuation de l'ombre au survol */
+    transition: all 0.3s ease-in-out;
+}
+
+.comics-panel:hover {
+    transform: scale(1.05) rotate(-2deg);
+    transition: all 0.3s ease-in-out;
+}
+.comics-panel p {
+    background: white;
+    border: 2px solid #000;
+    border-radius: 15px;
+    padding: 10px;
+}
+#comics-skills {
+    padding: 40px;
+   
+    background-color: #ffffff; /* Couleur jaune légère pour le fondu */
+}
+#comics-skills h2, #comics-skills p {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Ombre subtile */
+}
+#comics-skills img {
+    width: 50px; /* Taille fixe pour les icônes */
+    height: auto;
+    margin-bottom: 10px; /* Espacement entre l'image et le texte */
+}
+/* Style général */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Section des centres d'intérêt */
+#interests {
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; /* Fond neutre */
+    color: #333;
+}
+
+#interests h2 {
+    font-size: 2.5rem;
+    color: #800000; /* Bordeaux */
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+/* Grille des centres d'intérêt */
+.interest-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Grille flexible */
+    gap: 20px; /* Espacement entre les éléments */
+    justify-items: center; /* Centrer les items */
+}
+
+/* Élément individuel */
+.interest-item {
+    background-color: #ffffff;
+    border: 2px solid #800000; /* Bordure bordeaux */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 300px; /* Taille maximale des éléments */
+}
+
+.interest-item img {
+    width: 100px; /* Taille des icônes */
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.interest-item h3 {
+    font-size: 1.5rem;
+    color: #800000; /* Bordeaux pour les titres */
+    margin-bottom: 10px;
+}
+
+.interest-item p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.interest-item img:hover {
+    transform: scale(1.1); /* Agrandissement au survol */
+    transition: transform 0.3s ease; /* Transition douce */
+    width: 120px; /* Taille agrandie */
+    height: 120px; /* Taille agrandie */
+}
+
+#contact {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    color: #800000; /* Bordeaux */
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacement entre les liens */
+}
+
+.contact-link {
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #800000; /* Bordeaux */
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-link:hover {
+    background-color: #b71c1c; /* Rouge plus foncé */
+}
